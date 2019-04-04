@@ -1,2 +1,2 @@
 # TP-S
-Trabajos Practicos
+Trabajos Practicos de laboratorio 1
