@@ -16,6 +16,9 @@ int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
     char bufferNombre[4096];
     char bufferHorasTrabajadas[4096];
     char bufferSueldo[4096];
+    int id;
+    int maxId=-1;
+    int retorno=-1;
     Employee *pEmpleado;
 
 
@@ -32,16 +35,19 @@ int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
             {
                 if(ll_add(pArrayListEmployee,pEmpleado))
                 {
-                    //termina asi
-                    //printf("todo bien");
-                    //employee_generarId();
+                    employee_getId(pEmpleado,&id);
+                    if (id>maxId)
+                    {
+                        maxId=id;
+                    }
+                    retorno=0;
 
                 }
             }
-
+              employee_iniciarId(maxId+1);
         }
     }
-    return 1;
+    return retorno;
 }
 
 /** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo binario).

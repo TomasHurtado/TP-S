@@ -10,6 +10,8 @@ typedef struct
 
 Employee* employee_new();
 int employee_generarId(void);
+void employee_iniciarId(int val);
+
 Employee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr,char* sueldo);
 void employee_delete();
 
@@ -29,6 +31,7 @@ int employee_setSueldo(Employee* this,int sueldo);
 int employee_getSueldo(Employee* this,int* sueldo);
 int employee_setSueldochar(Employee* this,char* sueldo);
 
+int employee_comparaNombre(void *this,void *that);
 int employee_searchId(LinkedList* pArrayListEmployee, int id);
 
 

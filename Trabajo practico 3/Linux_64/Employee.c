@@ -18,6 +18,10 @@ int employee_generarId(void)
     return idgen++;
 }
 
+void employee_iniciarId(int val)
+{
+    idgen= val;
+}
 
 Employee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr,char* sueldo)
 {
@@ -168,6 +172,25 @@ int employee_setSueldochar(Employee* this,char* sueldo)
         val=atoi(sueldo);
         this->sueldo = val;
         retorno = 0;
+    }
+    return retorno;
+}
+
+int employee_comparaNombre(void *this,void *that)
+{
+    int retorno;
+    int comparacion = strcmp(((Employee*)this)->nombre,((Employee*)that)->nombre);
+    if (comparacion<0)
+    {
+        retorno=1;
+    }
+    else if (comparacion>0)
+    {
+        retorno=-1;
+    }
+    else
+    {
+        retorno=0;
     }
     return retorno;
 }

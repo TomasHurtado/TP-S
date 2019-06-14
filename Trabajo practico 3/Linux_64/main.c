@@ -24,7 +24,7 @@ int main()
 {
     int option = 0;
     LinkedList* listaEmpleados = ll_newLinkedList();
-    do{ printf("\n1) Cargar los datos de los empleados desde el archivo data.csv (modo texto)\n2 Cargar los datos de los empleados desde el archivo data.csv (modo binario)\n3 Alta de empleado\n4 Modificar datos de empleado\n5 Baja de empleado\n6 Listar empleados\n7 Ordenar empleados\n8 Guardar los datos de los empleados en el archivo data.csv (modo texto)\n9 Guardar los datos de los empleados en el archivo data.csv (modo binario)");
+    do{ printf("\n1) Cargar los datos de los empleados desde el archivo data.csv (modo texto)\n2 Cargar los datos de los empleados desde el archivo data.csv (modo binario)\n3 Alta de empleado\n4 Modificar datos de empleado\n5 Baja de empleado\n6 Listar empleados\n7 Ordenar empleados(demora)\n8 Guardar los datos de los empleados en el archivo data.csv (modo texto)\n9 Guardar los datos de los empleados en el archivo data.csv (modo binario)");
     utn_getUnsignedInt("\n10) Salir\n","\nError",1,sizeof(int),1,60,1,&option);
 
         switch(option)
@@ -48,6 +48,7 @@ int main()
                 controller_ListEmployee(listaEmpleados);
                 break;
             case 7:
+                controller_sortEmployee(listaEmpleados);
                 break;
             case 8:
                 controller_saveAsText("dota.csv",listaEmpleados);

@@ -207,7 +207,14 @@ int controller_ListEmployee(LinkedList* pArrayListEmployee)
  */
 int controller_sortEmployee(LinkedList* pArrayListEmployee)
 {
-    return 1;
+    int retorno=-1;
+    if (pArrayListEmployee!=NULL)
+    {
+        ll_sort(pArrayListEmployee,employee_comparaNombre,1);
+        retorno=0;
+    }
+    return retorno;
+
 }
 
 /** \brief Guarda los datos de los empleados en el archivo data.csv (modo texto).
@@ -284,4 +291,3 @@ int controller_saveAsBinary(char* path , LinkedList* pArrayListEmployee)
 
     return 1;
 }
-
