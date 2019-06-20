@@ -4,12 +4,16 @@
 	<stdio.h>
 	<stdlib.h>
 
+1560925733 
+
 1460469917 /home/mauro/Documentos/workspace_c/utest/lib/utest.h
 
 1460486212 source:/home/mauro/Documentos/workspace_c/utest/examples/example_1/src/main.c
 	<stdio.h>
 	<stdlib.h>
 	"../testing/inc/main_test.h"
+
+1461339438 g/inc/main_test.h"
 
 1460469855 source:/home/mauro/Documentos/workspace_c/utest/examples/example_1/lib/utest.c
 	"utest.h"
@@ -21,6 +25,8 @@
 1460483123 source:/home/mauro/Documentos/workspace_c/utest/examples/example_1/src/firstTest.c
 	<utest.h>
 	<utest.c>
+
+1460486298 
 
 1460470560 /home/mauro/Documentos/workspace_c/utest/examples/example_1/src/firstTest.h
 
@@ -49,6 +55,8 @@
 	"../inc/firstTest.h"
 	"../inc/secondTest.h"
 
+1460582017 condTest.h"
+
 1460485472 /home/mauro/Documentos/workspace_c/utest/examples/example_1/testing/inc/firstTest.h
 
 1460485519 /home/mauro/Documentos/workspace_c/utest/examples/example_1/testing/inc/secondTest.h
@@ -67,6 +75,8 @@
 	<stdio.h>
 	<stdlib.h>
 	"../../inc/array.h"
+
+1461588197 /array.h"
 
 1460577103 source:/home/mauro/Documentos/workspace_c/utest/examples/example_2/testing/src/main_test.c
 	<utest.h>
@@ -96,6 +106,8 @@
 	<string.h>
 	"../testing/inc/main_test.h"
 	"../inc/array.h"
+
+1463408851 ray.h"
 
 1460484671 /home/mauro/Documentos/workspace_c/utest/examples/example_2/testing/inc/main_test.h
 
@@ -166,6 +178,8 @@
 	"../inc/thirdTest.h"
 	"../inc/fourthTest.h"
 	"../inc/fifthTest.h"
+
+1461588197 fthTest.h"
 
 1461359121 d:\mauriciodavila\utest\examples\example_3\testing\inc\firsttest.h
 
@@ -491,6 +505,8 @@
 	<string.h>
 	"../inc/ArrayList.h"
 
+1531935009 rayList.h"
+
 1461614020 /home/mauro/Documentos/workspace_c/utest/examples/example_4/inc/ArrayList.h
 
 1461613743 source:/home/mauro/Documentos/workspace_c/utest/examples/example_4/src/main.c
@@ -520,6 +536,8 @@
 	"../../inc/ArrayList.h"
 	"../../inc/Employee.h"
 
+1532005400 /Employee.h"
+
 1463087789 d:\mauriciodavila\arraylist\examples\example_4\inc\array.h
 
 1463087789 source:d:\mauriciodavila\arraylist\examples\example_4\testing\src\firsttest.c
@@ -528,6 +546,8 @@
 	<stdlib.h>
 	<string.h>
 	"../../inc/ArrayList.h"
+
+1463521274 /ArrayList.h"
 
 1463087789 source:d:\mauriciodavila\arraylist\examples\example_4\testing\src\fourthtest.c
 	<utest.h>
@@ -557,6 +577,8 @@
 	"../inc/thirteenthTest.h"
 	"../inc/fourteenthTest.h"
 	"../inc/fifteenthTest.h"
+
+1463425739 fteenthTest.h"
 
 1463087789 d:\mauriciodavila\arraylist\examples\example_4\testing\inc\firsttest.h
 
@@ -604,6 +626,8 @@
 	<stdlib.h>
 	<string.h>
 	"../inc/Employee.h"
+
+1560925733 ployee.h"
 
 1463087789 d:\mauriciodavila\arraylist\examples\example_4\inc\employee.h
 
@@ -1082,6 +1106,8 @@
 	"../inc/fifteenthTest.h"
 	"../inc/sixteenthTest.h"
 	"../inc/seventeenthTest.h"
+
+1532005708 venteenthTest.h"
 
 1463432010 d:\mauricio\arraylist\examples\example_4\testing\inc\firsttest.h
 
@@ -1843,6 +1869,8 @@
 	<string.h>
 	"../../inc/LinkedList.h"
 
+1560925733 /LinkedList.h"
+
 1532003455 source:/home/mauro/Descargas/arraylist_v8/arraylist/examples/example_4/testing/src/fourteenthTest.c
 	<utest.h>
 	<stdio.h>
@@ -2024,6 +2052,8 @@
 	<stdlib.h>
 	<string.h>
 	"../inc/LinkedList.h"
+
+1560936116 nkedList.h"
 
 1463521274 source:/home/mauro/Descargas/linkedList_v1/utest.c
 	"utest.h"
@@ -2259,6 +2289,8 @@
 	<string.h>
 	"../../inc/LinkedList.h"
 	"../../testing/inc/Employee.h"
+
+1560925733 ting/inc/Employee.h"
 
 1463521274 /home/mauro/Descargas/linkedlist_v2/utest.h
 
@@ -2581,6 +2613,8 @@
 	"../inc/subListTest.h"
 	"../inc/containsAllTest.h"
 	"../inc/sortTest.h"
+
+1560925733 rtTest.h"
 
 1463521274 /home/mauro/Descargas/linkedlist_v2_resuelto/testing/inc/firstTest.h
 
@@ -4601,4 +4635,244 @@
 	<stdlib.h>
 	<string.h>
 	"../inc/LinkedList.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/addNodeTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/utest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/inc/LinkedList.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/Employee.h
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/addTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/clearTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/cloneTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/containsAllTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/containsTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/deleteLinkedListTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/getNodeTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/getTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/indexOfTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/isEmptyTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/lenTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/main_test.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	"../inc/newTest.h"
+	"../inc/addTest.h"
+	"../inc/getNodeTest.h"
+	"../inc/addNodeTest.h"
+	"../inc/deleteLinkedListTest.h"
+	"../inc/lenTest.h"
+	"../inc/getTest.h"
+	"../inc/containsTest.h"
+	"../inc/setTest.h"
+	"../inc/removeTest.h"
+	"../inc/clearTest.h"
+	"../inc/cloneTest.h"
+	"../inc/pushTest.h"
+	"../inc/indexOfTest.h"
+	"../inc/isEmptyTest.h"
+	"../inc/popTest.h"
+	"../inc/subListTest.h"
+	"../inc/containsAllTest.h"
+	"../inc/sortTest.h"
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/newTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/addTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/getNodeTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/addNodeTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/deleteLinkedListTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/lenTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/getTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/containsTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/setTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/removeTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/clearTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/cloneTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/pushTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/indexOfTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/isEmptyTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/popTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/subListTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/containsAllTest.h
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/sortTest.h
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/newTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/popTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/pushTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/removeTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/setTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/sortTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/src/subListTest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/utest.c
+	"utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1560980726 source:/home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/src/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../testing/inc/main_test.h"
+	"../inc/LinkedList.h"
+
+1560980726 /home/alumno/Escritorio/asd/Tp_laboratorio_1/Trabajo practico 4/testing/inc/main_test.h
 
