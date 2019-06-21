@@ -526,7 +526,7 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)//newllist + for get add
 
                     addNode(cloneArray,i,lista->pElement);
 
-                lista=lista->pNextNode;
+                    lista=lista->pNextNode;
             }
         }
     }
@@ -677,7 +677,7 @@ int ll_map(LinkedList* this, int (*pFunc)(void*))
                 ret=0;
             }else
             {
-               return=1;
+               return 1;
             }
 
         }
@@ -693,7 +693,7 @@ int ll_reduce(LinkedList* this, int (*pFunc)(void*))
 {
     int ret=-1;
     int i;
-    Node* element;
+    void* element;
 
     if(this!=NULL && (*pFunc)!=NULL)
     {
@@ -720,15 +720,27 @@ int ll_reduce(LinkedList* this, int (*pFunc)(void*))
 int ll_filter(LinkedList* this, int (*pFunc)(void*))
 {
     LinkedList* cloneArray = NULL;
+    void* element;
     int i;
-
-    if(this!=NULL && (*pFunc()!=NULL))
+    int ret= -1;
+    if(this!=NULL && (*pFunc)!=NULL)
     {
         cloneArray=ll_newLinkedList();
+        for(i=0;i<ll_len(this);i++)
+        {
+            element=ll_get(this,i);
+            if(pFunc(element)==1)
+            {
+                ll_add(cloneArray,element);
+                ret=0;
+            }
+        }
+
+
 
     }
 
-
+    return ret;
 }
 
 
